@@ -1,0 +1,27 @@
+{
+  "user": {
+    "cellNumber": "09136620887",
+    "userId": "ce375dfc-4950-4015-a1c1-a1c3a5326d58",
+    "nationalCode": "2980604801",
+    "birthDate": "1373/02/20",
+    "name": "فرزانه",
+    "sureName": "بهرام نژاد"
+  },
+  "userAddress": {
+    "city": {
+      "uid": "93faa67e-5aa1-42a5-b6fc-a4f3e2bc7761"
+    },
+    "province": {
+      "uid": "fd55dfc8-e463-4238-98dd-80683aef7aa2"
+    },
+    "address": "تست تست تست تست",
+    "addressNo": "21",
+    "addressUnit": "222",
+    "phoneNum": "02199889988",
+
+    "birthPlace": {
+      "uid": "93faa67e-5aa1-42a5-b6fc-a4f3e2bc7761"
+    },
+    "postalCode": "1956993461"
+  }
+}

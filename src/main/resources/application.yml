@@ -1,0 +1,134 @@
+spring:
+  application:
+    name: LosApiAutomated
+  data:
+    mongodb:
+      host: "10.198.111.52"
+      port: 27017
+      database: "switch_credit_db"
+      username: "switch_credit_user"
+      password: "123456"
+  datasource:
+    url: "jdbc:mysql://10.198.111.61:3306/switch_credit_db?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false"
+    username: "switch_credit_user"
+    password: "123456"
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+los:
+  excel-address: "classpath:ds/rules-detail.xlsx"
+  plan-excel-address: "src/main/resources/ds/plans.xlsx"
+  cheque-image-path: "ds/cheque.jpg"
+  import-files-address: "src\\main\\resources\\ds\\"
+  test-data-path: "src/main/resources/ds/testData.json"
+  individual-excel-template: "src/main/resources/ds/individualTemplate.xlsx"
+  org-excel-template: "src/main/resources/ds/OrganizationalTemplate.xlsx"
+
+
+staging:
+  app-base-url: "https://uat.mydigipay.info/digipay/api"
+  credit-base-url-ms: "https://uatms.mydigipay.info/credit-onboarding/digipay/api/credit"
+  installment-base-url-ms: "https://uatms.mydigipay.info/installment/digipay/api"
+  dashboard-base-url: "https://uatdsh.mydigipay.info/digipay/api"
+  credit-payment-base-url-ms: "https://uatms.mydigipay.info/credit-payment/digipay/api/credit-payment"
+  mongo-db-base-url: "https://uatqa.mydigipay.info/mongodb"
+  sql-db-base-url: "https://uatqa.mydigipay.info/mysql"
+  redis-url: "https://uatqa.mydigipay.info/"
+  base-url: "https://uatapp.mydigipay.info"
+
+databases:
+  switch-credit:
+    name: "switch_credit_db"
+    collections:
+      planCol: "plans"
+      activationCol: "activations"
+      userBulkCol: "user_bulk"
+      allocationCol: "allocation_prepayment"
+      allocationJournalCol: "allocation_prepayment_journal"
+      closeContractEventCol: "close_contract_event"
+      whitelistsCol: "whitelists"
+  credit-score:
+    name: "credit_score_db"
+    collections:
+      icsCol: "ics_scores"
+      bankScore: "bank_scores"
+  credit-profile-mng:
+    name: "credit_profile_mng"
+    collections:
+      rules: "rules"
+  kyc:
+    name: "kyc_db"
+    collections:
+      loans: "postponed_loans_inquiry_journals"
+      cheques: "bounced_cheques_inquiry_journals"
+  credit-account-mng:
+    name: "credit-account-mng_db"
+    collections:
+      accounts: "accounts"
+scoreDetail:
+  icsScore: 900
+  bankScore: 850
+
+PlanRegistrationFlow:
+  name: "آنلاین"
+  type: "ONLINE"
+  description:
+    header: "ثبت‌نام آنلاین"
+
+ProviderPlanDetail1:
+  - order: 1
+    description:
+      body: "داشتن حساب فعال در بانک ملت با شماره همراهی که با آن وارد دیجی‌پی شده‌اید الزامی است."
+      info:
+        description: "حساب فعال، حسابی است که در طول یکسال گذشته گردش مالی برای آن ثبت شده باشد."
+  - order: 2
+    description:
+      body: "داشتن حداقل ۱۸ و حداکثر ۷۰ سال سن."
+
+  - order: 3
+    description:
+      body: "بازپرداخت کل مبلغ دریافتی الزامی‌ست."
+
+  - order: 4
+    description:
+      body: "داشتن کارت پایان خدمت یا انواع معافیت برای آقایان."
+ProviderPlanDetail13:
+  - order: 1
+    description:
+      body: "داشتن حساب بانک تجارت الزامی نیست."
+  - order: 2
+    description:
+      body: "داشتن حداقل ۱۸ و حداکثر ۷۰ سال سن."
+
+  - order: 3
+    description:
+      body: "بازپرداخت کل مبلغ دریافتی الزامی‌ست."
+ProviderPlanDetail7:
+  - order: 2
+    description:
+      body: "داشتن حداقل ۱۸ و حداکثر ۷۰ سال سن."
+
+  - order: 3
+    description:
+      body: "داشتن رتبه کافی امکان‌سنجی."
+
+NEW_CHEQUEDescription:
+  header: "نکات مهم"
+  body: "<p>چک صیادی بنفش رنگ باید به نام خودتان باشد.</p><br/><p>چک صیادی بنفش رنگ همه بانک‌ها قابل قبول است.</p>"
+
+E_NOTEDescription:
+  header: "به خاطر داشته باشید:"
+  body: "<p>خرید و امضای سفته‌ی الکترونیک به صورت آنلاین در همین فرایند انجام می‌شود.</p>\n<br />\n<p>به علت عدم پایداری سرویس‌دهنده سفته، ممکن است ثبت‌نام شما با تاخیر چند روزه مواجه شود.</p>"
+
+contractNumber1: "14029419683"
+contractNumber13: "0142.095.00035220.02"
+
+chequeDetail1:
+  date: "1705276800000"
+  amount: 450000000
+  chequeId: "7192020067148122"
+
+chequeDetail13:
+  date: "1705536000000"
+  amount: 600000000
+  chequeId: "1793010093792962"
+
+

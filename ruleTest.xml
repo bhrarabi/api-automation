@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rule test automation" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <parameter name="testDataPath" value="${testDataPath}"/>
+    <parameter name="ruleDetailFile" value="${ruleDetailFile}"/>
+    <parameter name="plansExcelFile" value="${plansExcelFile}"/>
+
+    <test name="Rule test" group-by-instances="true">
+
+        <classes>
+            <class name="com.mydigipay.los.ruleautomation.CheckRuleDetailWithMongo"/>
+        </classes>
+    </test>
+    <test name="Plan test" group-by-instances="true">
+        <classes>
+            <class name="com.mydigipay.los.ruleautomation.CheckPlansWithinActivePlans"/>
+        </classes>
+    </test>
+    <test name="Run steps" group-by-instances="true">
+        <classes>
+
+            <class name="com.mydigipay.los.ruleautomation.StepProcessFactory">
+
+            </class>
+        </classes>
+    </test>
+</suite>
