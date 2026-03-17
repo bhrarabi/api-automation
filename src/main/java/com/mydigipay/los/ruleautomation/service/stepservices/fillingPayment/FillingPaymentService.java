@@ -16,9 +16,6 @@ import java.util.Map;
 
 @Data
 @Service
-/*
- * Author: b.arabi
- */
 public class FillingPaymentService {
 
     ConfigUtil configUtil;

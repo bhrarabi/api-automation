@@ -18,9 +18,6 @@ import java.util.Map;
 import java.util.Objects;
 
 @Data
-/*
- * Author: f.bahramnejad
- */
 public abstract class Step {
 
     @Autowired

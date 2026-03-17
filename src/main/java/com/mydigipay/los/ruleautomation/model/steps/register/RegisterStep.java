@@ -17,9 +17,6 @@ import java.util.Map;
 
 @Component
 @Slf4j
-/*
- * Author: f.bahramnejad
- */
 public class RegisterStep {
     final
     GroupRepository grpRepo;

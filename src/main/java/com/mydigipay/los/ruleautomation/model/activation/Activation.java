@@ -13,9 +13,6 @@ import java.util.List;
 
 @Data
 @Document(collection = "activations")
-/*
- * Author: f.bahramnejad
- */
 public class Activation {
     @Id
     String creditId;

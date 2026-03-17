@@ -14,9 +14,6 @@ import java.util.Map;
 
 
 @Data
-/*
- * Author: f.bahramnejad
- */
 public class ProfileStep extends Step {
     final
     ProfileService profileService;

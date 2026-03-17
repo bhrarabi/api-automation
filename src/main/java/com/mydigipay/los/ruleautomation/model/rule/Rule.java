@@ -12,9 +12,6 @@ import java.util.Map;
 
 @Data
 @Document(collection = "rules")
-/*
- * Author: b.arabi
- */
 public class Rule {
     @Id
     public ObjectId id;

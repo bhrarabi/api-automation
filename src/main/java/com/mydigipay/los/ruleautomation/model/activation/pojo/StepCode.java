@@ -1,8 +1,5 @@
 package com.mydigipay.los.ruleautomation.model.activation.pojo;
 
-/*
- * Author: b.arabi
- */
 public enum StepCode {
     REGISTER(2),
     DIGIPAY_SCORE(3),

@@ -22,9 +22,6 @@ import java.util.Optional;
 
 @SpringBootTest
 @ContextConfiguration
-/*
- * Author: b.arabi
- */
 public class CheckRuleDetailWithMongo extends AbstractTestNGSpringContextTests {
 
     @Autowired

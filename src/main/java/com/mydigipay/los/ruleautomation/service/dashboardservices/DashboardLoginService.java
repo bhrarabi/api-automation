@@ -10,9 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-/*
- * Author: b.arabi
- */
 public class DashboardLoginService {
 
     @Value("${staging.dashboard-base-url}")

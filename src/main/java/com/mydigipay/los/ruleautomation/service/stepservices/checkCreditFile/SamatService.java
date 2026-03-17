@@ -14,9 +14,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-/*
- * Author: a.mirghasemi
- */
 public class SamatService {
     final
     ConfigUtil configUtil;

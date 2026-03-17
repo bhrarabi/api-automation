@@ -27,9 +27,6 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-/*
- * Author: f.bahramnejad
- */
 public class AllocatioPrepaymentService {
     final DashboardLoginService dashboardLoginService;
     ConfigUtil configUtil;

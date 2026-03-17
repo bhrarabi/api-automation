@@ -13,9 +13,6 @@ import java.util.Map;
 
 @Data
 @Service
-/*
- * Author: f.bahramnejad
- */
 public class AllocationPrepaymentStep extends Step {
     final AllocatioPrepaymentService allocationPrepaymentService;
     private String contractNumber;

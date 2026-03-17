@@ -18,9 +18,6 @@ import java.util.List;
 
 
 @Service
-/*
- * Author: f.bahramnejad
- */
 public class JsonController {
 
     public static <T> T jsonToPojo(String json, Class<T> type) {

@@ -5,9 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-/*
- * Author: f.bahramnejad
- */
 public class Address {
     Location city;
     Location province;

@@ -10,9 +10,6 @@ import lombok.Getter;
 @Data
 @Entity
 @Table(name = "groups")
-/*
- * Author: f.bahramnejad
- */
 public class Group {
 
     @Id

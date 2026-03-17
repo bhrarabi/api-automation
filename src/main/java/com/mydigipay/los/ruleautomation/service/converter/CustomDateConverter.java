@@ -13,9 +13,7 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-/**
- * Author: f.bahramnejad
- */
+
 public class CustomDateConverter {
 
     private static Date stringToDate(String dateString) throws ParseException {

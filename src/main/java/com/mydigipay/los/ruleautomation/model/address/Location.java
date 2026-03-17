@@ -5,9 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 
 @Getter
-/*
- * Author: f.bahramnejad
- */
 public class Location {
     String uid;
 

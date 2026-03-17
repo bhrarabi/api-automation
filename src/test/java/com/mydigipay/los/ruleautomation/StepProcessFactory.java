@@ -11,9 +11,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * Author: f.bahramnejad
- */
 public class StepProcessFactory {
 
     @Factory(dataProvider = "Read rules")

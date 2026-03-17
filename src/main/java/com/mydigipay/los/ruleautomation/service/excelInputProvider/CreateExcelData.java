@@ -10,9 +10,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-/*
- * Author: f.bahramnejad
- */
 public class CreateExcelData {
     /**
      * This method creates Excel file which is needed for importing to an individual group.

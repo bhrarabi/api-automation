@@ -17,9 +17,6 @@ import java.util.Map;
 
 @Service
 @Lazy
-/*
- * Author: f.bahramnejad
- */
 public class ArchiveActivation {
     @Autowired
     ConfigUtil configUtil;

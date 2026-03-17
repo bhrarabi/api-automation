@@ -35,9 +35,6 @@ import java.util.Map;
 
 @SpringBootTest
 @Slf4j
-/*
- * Author: f.bahramnejad
- */
 public class StepProcessTest extends AbstractTestNGSpringContextTests {
 
 

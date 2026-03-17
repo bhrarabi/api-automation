@@ -33,9 +33,6 @@ import java.time.Instant;
 
 
 @Service
-/*
- * Author: f.bahramnejad
- */
 public class StepService {
     final
     FetchActivation fetch;

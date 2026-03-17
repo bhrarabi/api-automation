@@ -18,9 +18,6 @@ import com.mydigipay.los.ruleautomation.utils.constatnts.HttpHeader;
 
 @Service
 @Lazy
-/*
- * Author: f.bahramnejad
- */
 public class WhiteList {
     @Autowired
     ConfigUtil configUtil;

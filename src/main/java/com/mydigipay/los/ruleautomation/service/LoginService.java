@@ -10,9 +10,6 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-/*
- * Author: a.arabi
- */
 public class LoginService {
 
     @Value("${staging.app-base-url}")

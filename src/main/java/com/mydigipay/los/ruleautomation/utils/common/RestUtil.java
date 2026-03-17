@@ -18,9 +18,6 @@ import java.util.Map;
 
 import static org.apache.commons.io.FileUtils.getFile;
 
-/*
- * Author: b.arabi
- */
 public class RestUtil {
     private final RequestSpecBuilder requestSpecBuilder;
     private RequestSpecification requestSpecification;

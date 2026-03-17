@@ -12,9 +12,6 @@ import java.util.List;
 
 
 @Data
-/*
- * Author: f.bahramnejad
- */
 public class Plan {
     @ExcelCellName("sumInstallmentAmount")
     private long sumInstallmentAmount;

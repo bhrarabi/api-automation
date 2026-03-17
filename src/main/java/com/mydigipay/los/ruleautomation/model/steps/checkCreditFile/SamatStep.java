@@ -14,9 +14,6 @@ import java.util.Map;
 
 @Data
 @Component
-/*
- * Author: a.mirghasemi
- */
 public class SamatStep extends Step
 {
     final SamatService samatService;

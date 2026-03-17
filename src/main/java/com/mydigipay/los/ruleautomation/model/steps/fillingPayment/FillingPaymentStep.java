@@ -12,9 +12,6 @@ import java.util.Map;
 
 @Data
 @Service
-/*
- * Author: b.arabi
- */
 public class FillingPaymentStep extends Step {
     final FillingPaymentService fillingPaymentService;
 

@@ -21,10 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Service
-/*
- * Author: b.arabi
- */ public class ExcelController {
+@Service public class ExcelController {
 
     private static final Integer CONSTANTS_COUNT = 23;
 

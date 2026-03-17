@@ -23,9 +23,6 @@ import java.util.Objects;
 
 @Data
 @Service
-/*
- * Author: b.arabi
- */
 public class ChequeService {
 
     final DashboardLoginService dashboardLoginService;

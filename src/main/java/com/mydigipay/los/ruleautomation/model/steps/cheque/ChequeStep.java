@@ -14,9 +14,6 @@ import java.util.Map;
 
 @Data
 @Service
-/*
- * Author: b.arabi
- */
 public class ChequeStep extends Step {
 
     ChequeService chequeStepService;

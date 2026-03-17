@@ -12,9 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-/*
- * Author: a.mirghasemi
- */
 public class WalletActivationService {
     final
     ConfigUtil configUtil;

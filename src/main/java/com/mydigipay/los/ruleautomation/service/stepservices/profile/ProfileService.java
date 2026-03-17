@@ -16,9 +16,6 @@ import java.util.Map;
 
 
 @Service
-/*
- * Author: f.bahramnejad
- */
 public class ProfileService {
     final
     ConfigUtil configUtil;

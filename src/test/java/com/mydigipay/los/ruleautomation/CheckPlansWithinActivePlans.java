@@ -32,9 +32,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @SpringBootTest
-/*
- * Author: f.bahramnejad
- */
 public class CheckPlansWithinActivePlans extends AbstractTestNGSpringContextTests {
 
 

@@ -13,9 +13,6 @@ import java.util.List;
 import java.util.Map;
 
 @Data
-/*
- * Author: a.mirghasemi
- */
 public class WalletActivatonStep extends Step
 {
     final WalletActivationService activationService;

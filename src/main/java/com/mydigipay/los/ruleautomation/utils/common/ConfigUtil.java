@@ -5,9 +5,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
 @Configuration
-/*
- * Author: f.bahramnejad
- */
 public class ConfigUtil {
 
     @Autowired
